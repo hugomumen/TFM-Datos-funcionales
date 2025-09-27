@@ -1,0 +1,53 @@
+# Configuración del Proyecto TFM
+
+## Información General
+proyecto:
+  titulo: "Análisis de Datos Funcionales"
+  tipo: "Trabajo de Fin de Máster"
+  universidad: "[Universidad]"
+  programa: "[Programa de Máster]"
+  autor: "[Nombre del autor]"
+  director: "[Director de tesis]"
+  
+## Configuración de Análisis
+analisis:
+  lenguaje_principal: "Python"
+  lenguajes_adicionales: ["R", "LaTeX"]
+  
+## Herramientas
+herramientas:
+  ide_recomendado: "VS Code / Jupyter"
+  control_version: "Git"
+  gestion_referencias: "BibTeX"
+  
+## Dependencias Python
+python:
+  version_minima: "3.8"
+  paquetes_core:
+    - pandas
+    - numpy
+    - scipy
+    - matplotlib
+    - seaborn
+    - scikit-learn
+  paquetes_especializados:
+    - scikit-fda
+    
+## Estructura de Archivos
+estructura:
+  datos_raw: "data/raw/"
+  datos_procesados: "data/processed/"
+  codigo_fuente: "src/"
+  resultados: "results/"
+  documentacion: "docs/"
+  bibliografia: "literature/"
+  
+## Configuración de Git
+git:
+  ignorar:
+    - "*.tmp"
+    - "__pycache__/"
+    - "*.pyc"
+    - ".DS_Store"
+    - "data/raw/*"  # Evitar subir datasets grandes
+    - "results/temp/"
