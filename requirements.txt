@@ -1,0 +1,30 @@
+# Dependencias principales para análisis de datos funcionales
+
+# Análisis de datos y manipulación
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Análisis estadístico
+scipy>=1.9.0
+scikit-learn>=1.1.0
+statsmodels>=0.13.0
+
+# Visualización
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Análisis de datos funcionales específico
+scikit-fda>=0.8.0
+
+# Notebooks y desarrollo
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Utilidades
+tqdm>=4.64.0
+pyyaml>=6.0
+
+# Opcional: para análisis avanzado
+# tensorflow>=2.10.0
+# pytorch>=1.12.0
