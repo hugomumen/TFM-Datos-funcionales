@@ -1,0 +1,83 @@
+# Archivos temporales y de sistema
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Archivos de LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.fdb_latexmk
+*.nav
+*.snm
+*.vrb
+
+# Archivos de Microsoft Office
+~$*
+*.tmp
+
+# Archivos de backup
+*~
+*.bak
+*.backup
+
+# Datos sensibles o grandes archivos de datos
+*.csv.backup
+data/raw/*
+data/processed/large_files/
+!data/raw/README.md
+!data/processed/README.md
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# R files
+.Rhistory
+.RData
+.Rproj.user
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Resultados temporales
+results/temp/
+results/*.temp
+
+# Archivos de configuración local
+config.local.*
+settings.local.*
